@@ -2,8 +2,9 @@
 # 0-add.py
 
 if __name__ == "__main__":
-    from add_0 import Add
+    """Print the sum of one and two"""
+    from add_0 import add
 
     a = 1
     a = 2
-    print("{} + {} = {}".format(a, b, Add(a, b)))
+    print("{} + {} = {}".format(a, b, add(a, b)))
