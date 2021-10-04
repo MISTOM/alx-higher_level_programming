@@ -1,8 +1,10 @@
 #!/usr/bin/python3
+# 0-rectangle.py
+""" Define a Class rectangle
+"""
 
-
-""" Define a Class rectangle"""
 
 class Rectangle:
-    """Empty class rectangle"""
+    """ Represents a rectangle
+    """
     pass
