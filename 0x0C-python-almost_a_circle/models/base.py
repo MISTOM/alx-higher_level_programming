@@ -17,7 +17,7 @@ class Base:
         id (int): Id's of the instanciated Base
         """
         if not id == None:
-            __nb_objects = id
+            self.id = id
 
         else:
             Base.__nb_objects = Base.__nb_objects + 1
