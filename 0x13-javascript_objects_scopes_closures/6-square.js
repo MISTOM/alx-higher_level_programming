@@ -2,7 +2,6 @@
 const Square = require('./5-square');
 
 module.exports = class Square1 extends Square {
-
   /**
      * prints the rectangle using the character c
      * @param {string} c Character to print the shape
