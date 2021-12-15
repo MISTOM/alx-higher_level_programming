@@ -2,9 +2,6 @@
 const Square = require('./5-square');
 
 module.exports = class Square1 extends Square {
-  constructor (size) {
-    super(size);
-  }
 
   /**
      * prints the rectangle using the character c
