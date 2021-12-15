@@ -5,10 +5,4 @@
  * @param {number} base base to convert
  * @returns function to convert num to base @base
  */
-exports.converter = function (base) {
-  const mybase = base;
-  /**
-     * @param {number} num
-     */
-  return (num) => num.toString(mybase);
-};
+exports.converter = function (base) { return num => num.toString(base); };
